@@ -1,0 +1,16 @@
+html , body {
+    /* Reset do css */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    color:#0f0feb;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button{
+ margin: 0;
+}
