@@ -11,6 +11,25 @@ html , body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.button{
- margin: 0;
+.containerHeaderIndex{
+    margin-bottom: 100px;
+}
+
+.containerMainIndex {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+button{
+    text-decoration: none;
+    background: #4949fa;
+    color: #fff;   
+    padding: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
 }

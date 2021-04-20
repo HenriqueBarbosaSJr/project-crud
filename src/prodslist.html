@@ -7,19 +7,30 @@
     <link rel="stylesheet" href="../css/prodslist.css">
 </head>
 <body>
-    <table id="tbProds">
-        <thead>
-            <th>Código</th>
-            <th>Nome</th>
-            <th>Descrição</th>
-            <th>Quantidade</th>
-            <th>Fabricante</th>
-            <th>Data / hora</th>
-        </thead>
-        <tbody id="tbodyList"></tbody>
-
-    </table>
-    <button id="btnvoltar"><a href="../index.html">Voltar</a></button>
+    <header>
+        <h1>Listagem de Produtos</h1>
+    </header>
+    <main>
+        <div class="containerTable">
+            <table id="tbProds">
+                <thead>
+                    <th>Código</th>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>Quantidade</th>
+                    <th>Fabricante</th>
+                    <th>Data / hora</th>
+                </thead>
+                <tbody id="tbodyList"></tbody>
+        
+            </table>    
+        </div>
+        <div class="containerButton">
+            <button id="btnvoltar"><a href="../index.html">Voltar</a></button>
+        </div>
+        
+    </main>
+    
     <script src="../node_modules/axios/dist/axios.min.js"></script>
     <script src="../js/prodslist.js"></script>
 </body>

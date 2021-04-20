@@ -2,8 +2,6 @@
 
 const tbodyList = document.getElementById('tbodyList');
 
-
-
 // Código
 
 const api = axios.create({
@@ -34,6 +32,5 @@ function listAll(){
     });
 
 }
-
 
 listAll();
