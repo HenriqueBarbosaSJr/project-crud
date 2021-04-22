@@ -1,0 +1,30 @@
+header{
+    text-align: center;
+    color: #06066c;
+}
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    background: rgb(208, 205, 205);
+    border-radius: 7px;
+}
+
+.containerForm input{
+    margin: 8px 0;
+    border: none;
+    height: 25px;
+}
+
+.containerButton{
+    display: flex;
+    width:60%;
+    margin: 15px auto;
+    justify-content: center;
+}
+
+
