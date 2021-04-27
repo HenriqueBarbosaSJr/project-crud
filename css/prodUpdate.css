@@ -15,7 +15,7 @@ header{
 }
 
 .containerForm input{
-    margin: 8px 0;
+    margin: 8px 0px;
     border: none;
     height: 25px;
 }
@@ -27,4 +27,8 @@ header{
     justify-content: center;
 }
 
-
+#lblDatahora{
+    margin: 8px 0;
+    height: 25px;
+    background: #fff;
+}
