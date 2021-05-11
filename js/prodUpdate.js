@@ -22,7 +22,6 @@ const api = axios.create({
 
 
 document.querySelector('form').addEventListener('submit', event => {
-
     event.preventDefault();
 });
 
